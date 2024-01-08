@@ -1,5 +1,8 @@
-.head{background-image: url(image/Banner\ Image.png);
+.head{
+    /* background-image: url(image/Banner\ Image.png); */
 background-size: cover;
+Background:linear-gradient(to bottom,black, transparent),url(image/Banner\ Image.png);
+
 
     width: 1320px;
 
@@ -25,9 +28,8 @@ text-align: center;
     margin-top: 0;
   font-size: 72px;
    font-style: normal;
-  font-weight: 900;
-    line-height: 95px;
-}
+  font-weight: 900;}
+  
 
 /* off part styles */
 
@@ -58,10 +60,13 @@ text-align: center;
 
     background-image: url(image/Vectorrr.png);
     background-repeat: no-repeat;
-    width: 100%;
-    height: 750px;
+    /* width: 100%; */
+    
     align-self: center;
    background-size: cover;
+   width: 1320px;
+
+height: 600px;
   
 }
 
@@ -93,6 +98,9 @@ font-weight: 700;}
          font-weight: 700;}
 
 .placeSection{
+    width: 1320px;
+
+    height: 600px;
     font-size: 32px;
     color: #070211;
     font-weight: 600;
@@ -129,3 +137,10 @@ font-weight: 500;
 
 
 }
+/* .midImages{
+    background-image: url("image/Rectangle 2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+} */
+
