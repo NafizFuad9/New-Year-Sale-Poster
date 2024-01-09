@@ -185,8 +185,8 @@ font-weight: 500;
 } 
 
 .discountImage{z-index: 2;
-position: relative;
-left: 180px;}
+     position: relative;
+     left: 180px;}
 .girlImage{z-index: 1;}
 
 
@@ -301,7 +301,7 @@ font-size: 20px;
 
 /* footer style section */
 footer{background: #070211;
-padding: 250px;
+padding: 150px;
 justify-content: space-around;}
 
 .foot1{display: flex;
