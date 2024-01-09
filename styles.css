@@ -4,7 +4,7 @@ background-size: cover;
 Background:linear-gradient(to bottom,black, transparent),url(image/Banner\ Image.png);
 
 
-    width: 1320px;
+     width: 1320px;
 
 height: 600px;
 margin: 50px 144px;
@@ -144,3 +144,35 @@ font-weight: 500;
     
 } */
 
+
+/* portfolio Style */
+
+.portSubTitle{
+color: #F00;
+font-size: 24px;
+font-weight: 500;
+}
+.portTitle{
+color: #070211;
+font-size: 48px;
+font-weight: 900;
+}
+.portDescrip{
+    color: rgba(7, 2, 17, 0.60);
+    width: 896px;
+
+font-size: 20px;
+
+font-weight: 400;
+}
+
+.images1{
+    display: flex;
+    
+}
+.images2{
+    display: flex;
+}
+
+
+/* subsribe section styles */
