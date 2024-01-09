@@ -190,6 +190,10 @@ font-weight: 500;
 .portfoilo{
     margin-left: 50px;
 }
+.portfoilo img:hover{
+    transform: scale(1.3);
+}
+
 
 .portSubTitle{
 color: #F00;
