@@ -184,6 +184,11 @@ font-weight: 500;
     
 } 
 
+.discountImage{z-index: 2;
+position: relative;
+left: 180px;}
+.girlImage{z-index: 1;}
+
 
 
 /* portfolio Style */
