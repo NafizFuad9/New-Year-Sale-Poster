@@ -1,17 +1,16 @@
+body{max-width: 1600px;
+    justify-content: center;
+    margin: 20px 80px;}
+    
+
+
 .head{
-    /* background-image: url(image/Banner\ Image.png); */
-background-size: cover;
-Background:linear-gradient(to bottom,black, transparent),url(image/Banner\ Image.png);
-
-
-     width: 1320px;
-
+  Background:linear-gradient(to bottom,black, transparent),url(image/Banner\ Image.png);
 height: 600px;
 margin: 50px 144px;
 border-radius: 16px;
-/* justify-items: center;
-align-items: center; */
 text-align: center;
+margin-bottom: 120px;
 }
 
 
@@ -41,32 +40,36 @@ text-align: center;
     color: #F00;
     font-size: 88px;
     font-weight: 700;
+    margin-bottom: 50px;
 }
 
 .offSubTitle{
     color: #F00;
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: 10px;
+    padding-bottom: 0;
 }
 .OffDescription{
     color: #070211;
     font-size: 48px;
     font-weight: 700;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 50px;
 }
 
 
 .midnigtParty{
     display: flex;
-
     background-image: url(image/Vectorrr.png);
     background-repeat: no-repeat;
-    /* width: 100%; */
-    
     align-self: center;
    background-size: cover;
-   width: 1320px;
-
-height: 600px;
+   height: 600px;
+   justify-content: space-between;
+   padding: 120px;
+   margin-top: 120px;
   
 }
 
@@ -79,40 +82,52 @@ height: 600px;
 
 .midDesription{
     color: rgba(255, 255, 255, 0.80);
-
-    text-align: center;
-font-size: 18px;
-
-font-weight: 400;
-line-height: 30px; 
+    /* text-align: center; */
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
     
 }
 
 .button{color: #FFF;
-text-align: center;
+text-align: left;
  font-size: 20px;
-font-weight: 700;}
+font-weight: 700;
+background: 0;
+border: 0;}
+
 .button1{background-color: #F00;
          color: #FFF;
         font-size: 20px;
          font-weight: 700;}
+/* place styles */
 
 .placeSection{
-    width: 1320px;
-
-    height: 600px;
+    margin-top: 120px;
+    margin-bottom: 120px;
     font-size: 32px;
     color: #070211;
     font-weight: 600;
     text-align: center;
-    background-color: rgb(231, 203, 192);
+    background-color: rgb(241, 189, 169);
+    padding: 100px 385px 100px 385px;
+}
+
+.PlaceDecoration{color: #F00;
+font-size: 32px;
+font-weight: 600;
 }
 
 /* coming soon part style */
 
 .commingsoon{
     display: flex;
-   /* align-items: center; */
+    margin: 120px  140px;
+    
+}
+
+.soonDescrip,.soonMidImage,.YearPart{
+    width: 33.3%;
 }
 .soonSubTitle{color: #F00;
 font-size: 24px;
@@ -131,18 +146,39 @@ font-weight: 500;
 }
 
 .YearDeco{
+    width:33%;
     color: #F00;
    font-size: 48px;
    font-weight: 700;
 
 
 }
+
+.soonMidImage{
+    border-radius: 5px;
+    border-color: #F00;
+    border: 80px;
+}
+
+
+.holiday{
+    text-align: center;
+}
+
+.holidayTitle{
+    color: #070211;
+  font-size: 72px;
+    font-weight: 900;
+    
+}
+.holi{color: #F00;}
 /* .midImages{
     background-image: url("image/Rectangle 2.png");
     background-repeat: no-repeat;
     background-position: bottom;
     
 } */
+
 
 
 /* portfolio Style */
