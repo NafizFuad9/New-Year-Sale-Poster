@@ -59,6 +59,7 @@ margin-bottom: 120px;
     margin-bottom: 50px;
 }
 
+/* midParty section style */
 
 .midnigtParty{
     display: flex;
@@ -82,7 +83,7 @@ margin-bottom: 120px;
 
 .midDesription{
     color: rgba(255, 255, 255, 0.80);
-    /* text-align: center; */
+    
     font-size: 18px;
     font-weight: 400;
     line-height: 30px; 
@@ -94,12 +95,10 @@ text-align: left;
  font-size: 20px;
 font-weight: 700;
 background: 0;
-border: 0;}
+border: 0;
+}
 
-.button1{background-color: #F00;
-         color: #FFF;
-        font-size: 20px;
-         font-weight: 700;}
+
 /* place styles */
 
 .placeSection{
@@ -117,12 +116,18 @@ border: 0;}
 font-size: 32px;
 font-weight: 600;
 }
-
+.button1{background-color: #F00;
+    color: #FFF;
+   font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+  padding: 10px;
+}
 /* coming soon part style */
 
 .commingsoon{
     display: flex;
-    margin: 120px  140px;
+    margin: 120px  50px;
     
 }
 
@@ -158,6 +163,8 @@ font-weight: 500;
     border-radius: 5px;
     border-color: #F00;
     border: 80px;
+    border-image: 10px;
+    border-image-width: 10px;
 }
 
 
@@ -169,36 +176,47 @@ font-weight: 500;
     color: #070211;
   font-size: 72px;
     font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 20px;
     
 }
 .holi{color: #F00;}
-/* .midImages{
+ .midImages{
     background-image: url("image/Rectangle 2.png");
+   
     background-repeat: no-repeat;
     background-position: bottom;
+    display: flex;
+    justify-content: space-between;
     
-} */
+} 
 
 
 
 /* portfolio Style */
+.portfoilo{
+    margin-left: 50px;
+}
 
 .portSubTitle{
 color: #F00;
 font-size: 24px;
 font-weight: 500;
+margin-bottom: 0;
+padding-bottom: 0;
+margin-top: 120px;
 }
 .portTitle{
 color: #070211;
 font-size: 48px;
 font-weight: 900;
+margin-top: 10px;
+margin-bottom: 5px;
 }
 .portDescrip{
-    color: rgba(7, 2, 17, 0.60);
-    width: 896px;
-
+color: rgba(7, 2, 17, 0.60);
+width: 896px;
 font-size: 20px;
-
 font-weight: 400;
 }
 
@@ -206,13 +224,23 @@ font-weight: 400;
     display: flex;
     
 }
+.images1 div{
+    padding: 15px;
+}
+.images2 div{
+    padding: 15px;
+}
 .images2{
     display: flex;
+    
 }
 
 
 /* subsribe section styles */
 
+.subscribeSection{
+    margin-bottom: 120px;
+}
 .subsribeTitle{
     color: #070211;
 
@@ -221,6 +249,7 @@ font-weight: 400;
 }
 
 .subsribeDescrip{
+    text-align: center;
     width: 896px;
     color: rgba(7, 2, 17, 0.60);
 
@@ -235,40 +264,69 @@ line-height: 32px;
 
 
 /* subsribe area styles */
+.subscribeSection{
+    
+    margin-top: 120px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(241, 189, 169);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.subsribeDescrip{
+    text-align: center;
+    padding-left: 300px;
+}
+
+
 input{
     width: 648px;
-height: 68px;
+height: 65px;
 flex-shrink: 0;
 border-radius: 50px;
 background: #FFF;
 }
 .buttonSub{margin-left: -50px;
     width: 210px;
-    height: 72px;
+    height: 74px;
     flex-shrink: 0;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
 color: #FFF;
-font-size: 20px;}
+font-size: 20px;
+}
 
 
 
 
 
 /* footer style section */
-footer{background: #070211;}
+footer{background: #070211;
+padding: 250px;
+justify-content: space-around;}
 
 .foot1{display: flex;
-justify-content: space-between;}
+justify-items: auto;
+justify-content: space-between;
+margin-bottom: 20px;
+text-justify: auto;}
 
-.sociaLink{display: flex;}
+.sociaLink{display: flex;
+margin-top: 20px;
+margin-bottom: 20px;
+justify-content: center;}
 
-footer img {margin-left: 20px;}
+footer img {margin-left: 20px;
+padding: 20px;
+align-items: center;}
 
 .footdiv11,.footdiv12{color: #FFF;
     font-size: 24px;
     font-weight: 500;
-    line-height: 40px;}
+    line-height: 40px;
+align-self: auto;
+justify-content: center;}
 
 .LastPart{display: flex;
 justify-content: space-between}
@@ -278,4 +336,6 @@ font-weight: 500;}
 
 .unsub{color: #FFF;
 font-size: 24px;
-font-weight: 500;}
+font-weight: 500;
+margin-top: 25px;}
+
